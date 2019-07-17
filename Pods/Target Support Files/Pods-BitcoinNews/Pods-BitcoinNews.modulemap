@@ -1,0 +1,6 @@
+framework module Pods_BitcoinNews {
+  umbrella header "Pods-BitcoinNews-umbrella.h"
+
+  export *
+  module * { export * }
+}

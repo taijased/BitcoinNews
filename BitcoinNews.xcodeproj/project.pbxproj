@@ -1,0 +1,657 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8A4BDB9A22DE25610037A7C9 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4BDB9722DE25610037A7C9 /* AppCoordinator.swift */; };
+		8A4BDB9B22DE25610037A7C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4BDB9822DE25610037A7C9 /* AppDelegate.swift */; };
+		8A4BDB9C22DE25610037A7C9 /* NavigationCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4BDB9922DE25610037A7C9 /* NavigationCoordinator.swift */; };
+		8A4BDBA122DE25760037A7C9 /* StoryboardInitializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4BDB9E22DE25760037A7C9 /* StoryboardInitializable.swift */; };
+		8A4BDBA322DE25760037A7C9 /* BaseCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4BDBA022DE25760037A7C9 /* BaseCoordinator.swift */; };
+		8A4BDBAD22DE25990037A7C9 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4BDBA522DE25990037A7C9 /* Constants.swift */; };
+		8A4BDBAE22DE25990037A7C9 /* Constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4BDBA622DE25990037A7C9 /* Constraints.swift */; };
+		8A4BDBAF22DE25990037A7C9 /* WebImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4BDBA722DE25990037A7C9 /* WebImageView.swift */; };
+		8A4BDBB022DE25990037A7C9 /* UIButton + Custom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4BDBA822DE25990037A7C9 /* UIButton + Custom.swift */; };
+		8A4BDBB122DE25990037A7C9 /* UIColor + Custom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4BDBA922DE25990037A7C9 /* UIColor + Custom.swift */; };
+		8A4BDBB222DE25990037A7C9 /* TTNorms-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8A4BDBAB22DE25990037A7C9 /* TTNorms-Bold.otf */; };
+		8A4BDBB322DE25990037A7C9 /* TTNorms-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8A4BDBAC22DE25990037A7C9 /* TTNorms-Medium.otf */; };
+		8A4BDC3122DE28260037A7C9 /* WalkthroughCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4BDC3022DE28260037A7C9 /* WalkthroughCoordinator.swift */; };
+		8A4BDC3522DE287A0037A7C9 /* WalkthroughViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4BDC3422DE287A0037A7C9 /* WalkthroughViewController.swift */; };
+		8A4BDC3722DE2B180037A7C9 /* WalkthroughViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4BDC3622DE2B180037A7C9 /* WalkthroughViewModel.swift */; };
+		8A4BDC8B22DE3B3D0037A7C9 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4BDC4A22DE3B3D0037A7C9 /* HomeViewModel.swift */; };
+		8A4BDC8C22DE3B3D0037A7C9 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4BDC4B22DE3B3D0037A7C9 /* HomeViewController.swift */; };
+		8A4BDC8D22DE3B3D0037A7C9 /* ReadySolutionCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4BDC4D22DE3B3D0037A7C9 /* ReadySolutionCollectionView.swift */; };
+		8A4BDC8E22DE3B3D0037A7C9 /* ReadySolutionCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4BDC4E22DE3B3D0037A7C9 /* ReadySolutionCollectionViewCell.swift */; };
+		8A4BDC8F22DE3B3D0037A7C9 /* HomeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4BDC4F22DE3B3D0037A7C9 /* HomeCoordinator.swift */; };
+		8A4BDCBA22DE3BC60037A7C9 /* TabCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4BDCB922DE3BC60037A7C9 /* TabCoordinator.swift */; };
+		8A4BDCD422DE45060037A7C9 /* CriptoCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4BDCD322DE45060037A7C9 /* CriptoCoordinator.swift */; };
+		8A4BDCD622DE45110037A7C9 /* CriptoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4BDCD522DE45110037A7C9 /* CriptoViewController.swift */; };
+		8A4BDCD822DE451B0037A7C9 /* CriptoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4BDCD722DE451B0037A7C9 /* CriptoViewModel.swift */; };
+		8A4BDCE822DF51A60037A7C9 /* ProjectsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4BDCE222DF51A60037A7C9 /* ProjectsCollectionViewCell.swift */; };
+		8A4BDCE922DF51A60037A7C9 /* ProjectsCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4BDCE322DF51A60037A7C9 /* ProjectsCollectionView.swift */; };
+		8A4BDCEA22DF51A60037A7C9 /* ProjectsCollectionViewHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4BDCE422DF51A60037A7C9 /* ProjectsCollectionViewHeader.swift */; };
+		8A4BDCEB22DF51A60037A7C9 /* ProjectsCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4BDCE522DF51A60037A7C9 /* ProjectsCoordinator.swift */; };
+		8A4BDCEC22DF51A60037A7C9 /* ProjectsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4BDCE622DF51A60037A7C9 /* ProjectsViewController.swift */; };
+		8A4BDCED22DF51A60037A7C9 /* ProjectsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4BDCE722DF51A60037A7C9 /* ProjectsViewModel.swift */; };
+		8A4BDCFD22DF646D0037A7C9 /* ConverterCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4BDCFC22DF646D0037A7C9 /* ConverterCoordinator.swift */; };
+		8A4BDCFF22DF64870037A7C9 /* ConverterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4BDCFE22DF64870037A7C9 /* ConverterViewController.swift */; };
+		8A4BDD0122DF64970037A7C9 /* ConverterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4BDD0022DF64970037A7C9 /* ConverterViewModel.swift */; };
+		8AE945B922DE144B007F07B1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE945B822DE144B007F07B1 /* ViewController.swift */; };
+		8AE945BC22DE144B007F07B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AE945BA22DE144B007F07B1 /* Main.storyboard */; };
+		8AE945BE22DE144C007F07B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AE945BD22DE144C007F07B1 /* Assets.xcassets */; };
+		8AE945C122DE144C007F07B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AE945BF22DE144C007F07B1 /* LaunchScreen.storyboard */; };
+		AB8D40FDD37CFB525D5A7810 /* Pods_BitcoinNews.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC4AC9A97C8EE5488B2A43C4 /* Pods_BitcoinNews.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4ED92679DE55935010769674 /* Pods-BitcoinNews.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BitcoinNews.release.xcconfig"; path = "Target Support Files/Pods-BitcoinNews/Pods-BitcoinNews.release.xcconfig"; sourceTree = "<group>"; };
+		8A4BDB9722DE25610037A7C9 /* AppCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		8A4BDB9822DE25610037A7C9 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8A4BDB9922DE25610037A7C9 /* NavigationCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationCoordinator.swift; sourceTree = "<group>"; };
+		8A4BDB9E22DE25760037A7C9 /* StoryboardInitializable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryboardInitializable.swift; sourceTree = "<group>"; };
+		8A4BDBA022DE25760037A7C9 /* BaseCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseCoordinator.swift; sourceTree = "<group>"; };
+		8A4BDBA522DE25990037A7C9 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		8A4BDBA622DE25990037A7C9 /* Constraints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constraints.swift; sourceTree = "<group>"; };
+		8A4BDBA722DE25990037A7C9 /* WebImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebImageView.swift; sourceTree = "<group>"; };
+		8A4BDBA822DE25990037A7C9 /* UIButton + Custom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton + Custom.swift"; sourceTree = "<group>"; };
+		8A4BDBA922DE25990037A7C9 /* UIColor + Custom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor + Custom.swift"; sourceTree = "<group>"; };
+		8A4BDBAB22DE25990037A7C9 /* TTNorms-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TTNorms-Bold.otf"; sourceTree = "<group>"; };
+		8A4BDBAC22DE25990037A7C9 /* TTNorms-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TTNorms-Medium.otf"; sourceTree = "<group>"; };
+		8A4BDC3022DE28260037A7C9 /* WalkthroughCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkthroughCoordinator.swift; sourceTree = "<group>"; };
+		8A4BDC3422DE287A0037A7C9 /* WalkthroughViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkthroughViewController.swift; sourceTree = "<group>"; };
+		8A4BDC3622DE2B180037A7C9 /* WalkthroughViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkthroughViewModel.swift; sourceTree = "<group>"; };
+		8A4BDC4A22DE3B3D0037A7C9 /* HomeViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		8A4BDC4B22DE3B3D0037A7C9 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		8A4BDC4D22DE3B3D0037A7C9 /* ReadySolutionCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReadySolutionCollectionView.swift; sourceTree = "<group>"; };
+		8A4BDC4E22DE3B3D0037A7C9 /* ReadySolutionCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReadySolutionCollectionViewCell.swift; sourceTree = "<group>"; };
+		8A4BDC4F22DE3B3D0037A7C9 /* HomeCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeCoordinator.swift; sourceTree = "<group>"; };
+		8A4BDCB922DE3BC60037A7C9 /* TabCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabCoordinator.swift; sourceTree = "<group>"; };
+		8A4BDCD322DE45060037A7C9 /* CriptoCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CriptoCoordinator.swift; sourceTree = "<group>"; };
+		8A4BDCD522DE45110037A7C9 /* CriptoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CriptoViewController.swift; sourceTree = "<group>"; };
+		8A4BDCD722DE451B0037A7C9 /* CriptoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CriptoViewModel.swift; sourceTree = "<group>"; };
+		8A4BDCE222DF51A60037A7C9 /* ProjectsCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectsCollectionViewCell.swift; sourceTree = "<group>"; };
+		8A4BDCE322DF51A60037A7C9 /* ProjectsCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectsCollectionView.swift; sourceTree = "<group>"; };
+		8A4BDCE422DF51A60037A7C9 /* ProjectsCollectionViewHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectsCollectionViewHeader.swift; sourceTree = "<group>"; };
+		8A4BDCE522DF51A60037A7C9 /* ProjectsCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectsCoordinator.swift; sourceTree = "<group>"; };
+		8A4BDCE622DF51A60037A7C9 /* ProjectsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectsViewController.swift; sourceTree = "<group>"; };
+		8A4BDCE722DF51A60037A7C9 /* ProjectsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectsViewModel.swift; sourceTree = "<group>"; };
+		8A4BDCFC22DF646D0037A7C9 /* ConverterCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConverterCoordinator.swift; sourceTree = "<group>"; };
+		8A4BDCFE22DF64870037A7C9 /* ConverterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConverterViewController.swift; sourceTree = "<group>"; };
+		8A4BDD0022DF64970037A7C9 /* ConverterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConverterViewModel.swift; sourceTree = "<group>"; };
+		8AE945B322DE144B007F07B1 /* BitcoinNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BitcoinNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AE945B822DE144B007F07B1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8AE945BB22DE144B007F07B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8AE945BD22DE144C007F07B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8AE945C022DE144C007F07B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8AE945C222DE144C007F07B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC4AC9A97C8EE5488B2A43C4 /* Pods_BitcoinNews.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BitcoinNews.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB63C7878C5665823F0EFE8F /* Pods-BitcoinNews.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BitcoinNews.debug.xcconfig"; path = "Target Support Files/Pods-BitcoinNews/Pods-BitcoinNews.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8AE945B022DE144B007F07B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB8D40FDD37CFB525D5A7810 /* Pods_BitcoinNews.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A2B86694B33662F7F576B43 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DC4AC9A97C8EE5488B2A43C4 /* Pods_BitcoinNews.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8A4BDB9622DE25610037A7C9 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				8A4BDB9722DE25610037A7C9 /* AppCoordinator.swift */,
+				8A4BDB9822DE25610037A7C9 /* AppDelegate.swift */,
+				8A4BDB9922DE25610037A7C9 /* NavigationCoordinator.swift */,
+			);
+			name = App;
+			path = "../../../../ios/ARI new Design /ARI/ARI/App";
+			sourceTree = "<group>";
+		};
+		8A4BDB9D22DE25760037A7C9 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				8A4BDB9E22DE25760037A7C9 /* StoryboardInitializable.swift */,
+				8A4BDCB922DE3BC60037A7C9 /* TabCoordinator.swift */,
+				8A4BDBA022DE25760037A7C9 /* BaseCoordinator.swift */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		8A4BDBA422DE25990037A7C9 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				8A4BDBA522DE25990037A7C9 /* Constants.swift */,
+				8A4BDBA622DE25990037A7C9 /* Constraints.swift */,
+				8A4BDBA722DE25990037A7C9 /* WebImageView.swift */,
+				8A4BDBA822DE25990037A7C9 /* UIButton + Custom.swift */,
+				8A4BDBA922DE25990037A7C9 /* UIColor + Custom.swift */,
+				8A4BDBAA22DE25990037A7C9 /* Fonts */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		8A4BDBAA22DE25990037A7C9 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				8A4BDBAB22DE25990037A7C9 /* TTNorms-Bold.otf */,
+				8A4BDBAC22DE25990037A7C9 /* TTNorms-Medium.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		8A4BDBB422DE25A10037A7C9 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		8A4BDC2F22DE27930037A7C9 /* Walkthrough */ = {
+			isa = PBXGroup;
+			children = (
+				8A4BDC3022DE28260037A7C9 /* WalkthroughCoordinator.swift */,
+				8A4BDC3422DE287A0037A7C9 /* WalkthroughViewController.swift */,
+				8A4BDC3622DE2B180037A7C9 /* WalkthroughViewModel.swift */,
+			);
+			path = Walkthrough;
+			sourceTree = "<group>";
+		};
+		8A4BDC3F22DE3B3D0037A7C9 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				8A4BDCFB22DF64410037A7C9 /* Converter */,
+				8A4BDCE022DF51A60037A7C9 /* Projects */,
+				8A4BDCD222DE44EA0037A7C9 /* Cripto */,
+				8A4BDC2F22DE27930037A7C9 /* Walkthrough */,
+				8A4BDC4022DE3B3D0037A7C9 /* Home */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		8A4BDC4022DE3B3D0037A7C9 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				8A4BDC4C22DE3B3D0037A7C9 /* Ready Solution */,
+				8A4BDC4F22DE3B3D0037A7C9 /* HomeCoordinator.swift */,
+				8A4BDC4B22DE3B3D0037A7C9 /* HomeViewController.swift */,
+				8A4BDC4A22DE3B3D0037A7C9 /* HomeViewModel.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		8A4BDC4C22DE3B3D0037A7C9 /* Ready Solution */ = {
+			isa = PBXGroup;
+			children = (
+				8A4BDC4D22DE3B3D0037A7C9 /* ReadySolutionCollectionView.swift */,
+				8A4BDC4E22DE3B3D0037A7C9 /* ReadySolutionCollectionViewCell.swift */,
+			);
+			path = "Ready Solution";
+			sourceTree = "<group>";
+		};
+		8A4BDCD222DE44EA0037A7C9 /* Cripto */ = {
+			isa = PBXGroup;
+			children = (
+				8A4BDCD322DE45060037A7C9 /* CriptoCoordinator.swift */,
+				8A4BDCD522DE45110037A7C9 /* CriptoViewController.swift */,
+				8A4BDCD722DE451B0037A7C9 /* CriptoViewModel.swift */,
+			);
+			path = Cripto;
+			sourceTree = "<group>";
+		};
+		8A4BDCE022DF51A60037A7C9 /* Projects */ = {
+			isa = PBXGroup;
+			children = (
+				8A4BDCE122DF51A60037A7C9 /* Collection */,
+				8A4BDCE522DF51A60037A7C9 /* ProjectsCoordinator.swift */,
+				8A4BDCE622DF51A60037A7C9 /* ProjectsViewController.swift */,
+				8A4BDCE722DF51A60037A7C9 /* ProjectsViewModel.swift */,
+			);
+			path = Projects;
+			sourceTree = "<group>";
+		};
+		8A4BDCE122DF51A60037A7C9 /* Collection */ = {
+			isa = PBXGroup;
+			children = (
+				8A4BDCE322DF51A60037A7C9 /* ProjectsCollectionView.swift */,
+				8A4BDCE222DF51A60037A7C9 /* ProjectsCollectionViewCell.swift */,
+				8A4BDCE422DF51A60037A7C9 /* ProjectsCollectionViewHeader.swift */,
+			);
+			path = Collection;
+			sourceTree = "<group>";
+		};
+		8A4BDCFB22DF64410037A7C9 /* Converter */ = {
+			isa = PBXGroup;
+			children = (
+				8A4BDCFC22DF646D0037A7C9 /* ConverterCoordinator.swift */,
+				8A4BDCFE22DF64870037A7C9 /* ConverterViewController.swift */,
+				8A4BDD0022DF64970037A7C9 /* ConverterViewModel.swift */,
+			);
+			path = Converter;
+			sourceTree = "<group>";
+		};
+		8AE945AA22DE144B007F07B1 = {
+			isa = PBXGroup;
+			children = (
+				8AE945B522DE144B007F07B1 /* BitcoinNews */,
+				8AE945B422DE144B007F07B1 /* Products */,
+				987F6D5325E50FD026DEF365 /* Pods */,
+				3A2B86694B33662F7F576B43 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8AE945B422DE144B007F07B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8AE945B322DE144B007F07B1 /* BitcoinNews.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8AE945B522DE144B007F07B1 /* BitcoinNews */ = {
+			isa = PBXGroup;
+			children = (
+				8A4BDB9622DE25610037A7C9 /* App */,
+				8A4BDB9D22DE25760037A7C9 /* Library */,
+				8A4BDC3F22DE3B3D0037A7C9 /* Classes */,
+				8A4BDBB422DE25A10037A7C9 /* Networking */,
+				8A4BDBA422DE25990037A7C9 /* Helpers */,
+				8AE945B822DE144B007F07B1 /* ViewController.swift */,
+				8AE945BA22DE144B007F07B1 /* Main.storyboard */,
+				8AE945BD22DE144C007F07B1 /* Assets.xcassets */,
+				8AE945BF22DE144C007F07B1 /* LaunchScreen.storyboard */,
+				8AE945C222DE144C007F07B1 /* Info.plist */,
+			);
+			path = BitcoinNews;
+			sourceTree = "<group>";
+		};
+		987F6D5325E50FD026DEF365 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FB63C7878C5665823F0EFE8F /* Pods-BitcoinNews.debug.xcconfig */,
+				4ED92679DE55935010769674 /* Pods-BitcoinNews.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8AE945B222DE144B007F07B1 /* BitcoinNews */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8AE945C522DE144C007F07B1 /* Build configuration list for PBXNativeTarget "BitcoinNews" */;
+			buildPhases = (
+				BEBA9C56225E950918D098CA /* [CP] Check Pods Manifest.lock */,
+				8AE945AF22DE144B007F07B1 /* Sources */,
+				8AE945B022DE144B007F07B1 /* Frameworks */,
+				8AE945B122DE144B007F07B1 /* Resources */,
+				95307748CF04C0911A64A314 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BitcoinNews;
+			productName = BitcoinNews;
+			productReference = 8AE945B322DE144B007F07B1 /* BitcoinNews.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8AE945AB22DE144B007F07B1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Maxim Spiridonov";
+				TargetAttributes = {
+					8AE945B222DE144B007F07B1 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 8AE945AE22DE144B007F07B1 /* Build configuration list for PBXProject "BitcoinNews" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8AE945AA22DE144B007F07B1;
+			productRefGroup = 8AE945B422DE144B007F07B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8AE945B222DE144B007F07B1 /* BitcoinNews */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8AE945B122DE144B007F07B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A4BDBB222DE25990037A7C9 /* TTNorms-Bold.otf in Resources */,
+				8AE945C122DE144C007F07B1 /* LaunchScreen.storyboard in Resources */,
+				8AE945BE22DE144C007F07B1 /* Assets.xcassets in Resources */,
+				8A4BDBB322DE25990037A7C9 /* TTNorms-Medium.otf in Resources */,
+				8AE945BC22DE144B007F07B1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		95307748CF04C0911A64A314 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BitcoinNews/Pods-BitcoinNews-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxRelay/RxRelay.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/paper-onboarding/paper_onboarding.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxRelay.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/paper_onboarding.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BitcoinNews/Pods-BitcoinNews-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BEBA9C56225E950918D098CA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BitcoinNews-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8AE945AF22DE144B007F07B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A4BDC8B22DE3B3D0037A7C9 /* HomeViewModel.swift in Sources */,
+				8A4BDC3722DE2B180037A7C9 /* WalkthroughViewModel.swift in Sources */,
+				8A4BDB9A22DE25610037A7C9 /* AppCoordinator.swift in Sources */,
+				8A4BDBB022DE25990037A7C9 /* UIButton + Custom.swift in Sources */,
+				8A4BDC8C22DE3B3D0037A7C9 /* HomeViewController.swift in Sources */,
+				8A4BDCD422DE45060037A7C9 /* CriptoCoordinator.swift in Sources */,
+				8A4BDCE922DF51A60037A7C9 /* ProjectsCollectionView.swift in Sources */,
+				8A4BDBAE22DE25990037A7C9 /* Constraints.swift in Sources */,
+				8A4BDCEB22DF51A60037A7C9 /* ProjectsCoordinator.swift in Sources */,
+				8A4BDCBA22DE3BC60037A7C9 /* TabCoordinator.swift in Sources */,
+				8A4BDCE822DF51A60037A7C9 /* ProjectsCollectionViewCell.swift in Sources */,
+				8AE945B922DE144B007F07B1 /* ViewController.swift in Sources */,
+				8A4BDCD622DE45110037A7C9 /* CriptoViewController.swift in Sources */,
+				8A4BDBAF22DE25990037A7C9 /* WebImageView.swift in Sources */,
+				8A4BDB9C22DE25610037A7C9 /* NavigationCoordinator.swift in Sources */,
+				8A4BDCFD22DF646D0037A7C9 /* ConverterCoordinator.swift in Sources */,
+				8A4BDCD822DE451B0037A7C9 /* CriptoViewModel.swift in Sources */,
+				8A4BDBA122DE25760037A7C9 /* StoryboardInitializable.swift in Sources */,
+				8A4BDCED22DF51A60037A7C9 /* ProjectsViewModel.swift in Sources */,
+				8A4BDBB122DE25990037A7C9 /* UIColor + Custom.swift in Sources */,
+				8A4BDC8D22DE3B3D0037A7C9 /* ReadySolutionCollectionView.swift in Sources */,
+				8A4BDC8E22DE3B3D0037A7C9 /* ReadySolutionCollectionViewCell.swift in Sources */,
+				8A4BDCEC22DF51A60037A7C9 /* ProjectsViewController.swift in Sources */,
+				8A4BDD0122DF64970037A7C9 /* ConverterViewModel.swift in Sources */,
+				8A4BDB9B22DE25610037A7C9 /* AppDelegate.swift in Sources */,
+				8A4BDCFF22DF64870037A7C9 /* ConverterViewController.swift in Sources */,
+				8A4BDC3522DE287A0037A7C9 /* WalkthroughViewController.swift in Sources */,
+				8A4BDC3122DE28260037A7C9 /* WalkthroughCoordinator.swift in Sources */,
+				8A4BDC8F22DE3B3D0037A7C9 /* HomeCoordinator.swift in Sources */,
+				8A4BDBA322DE25760037A7C9 /* BaseCoordinator.swift in Sources */,
+				8A4BDBAD22DE25990037A7C9 /* Constants.swift in Sources */,
+				8A4BDCEA22DF51A60037A7C9 /* ProjectsCollectionViewHeader.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8AE945BA22DE144B007F07B1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8AE945BB22DE144B007F07B1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8AE945BF22DE144C007F07B1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8AE945C022DE144C007F07B1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8AE945C322DE144C007F07B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8AE945C422DE144C007F07B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8AE945C622DE144C007F07B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB63C7878C5665823F0EFE8F /* Pods-BitcoinNews.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AM97BUZ93P;
+				INFOPLIST_FILE = BitcoinNews/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dmitriyahonovskiy.BitcoinNews;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		8AE945C722DE144C007F07B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4ED92679DE55935010769674 /* Pods-BitcoinNews.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AM97BUZ93P;
+				INFOPLIST_FILE = BitcoinNews/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dmitriyahonovskiy.BitcoinNews;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8AE945AE22DE144B007F07B1 /* Build configuration list for PBXProject "BitcoinNews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AE945C322DE144C007F07B1 /* Debug */,
+				8AE945C422DE144C007F07B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8AE945C522DE144C007F07B1 /* Build configuration list for PBXNativeTarget "BitcoinNews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AE945C622DE144C007F07B1 /* Debug */,
+				8AE945C722DE144C007F07B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8AE945AB22DE144B007F07B1 /* Project object */;
+}
